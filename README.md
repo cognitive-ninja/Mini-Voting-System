@@ -27,3 +27,6 @@ The Header File with name ELECTION.H :-
     4. Result Declaration
   stu
     Use: All functions at Voter’s end
+
+Recommended Compiler: Turbo C++
+Can be run on any C compiler
