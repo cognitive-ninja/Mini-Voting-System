@@ -7,28 +7,37 @@
 -> Keeps a record of  every voting process.
 
 Working of Code:-
+
 The Header File with name ELECTION.H :-
-  Structure CAND: 
+
+Structure CAND: 
     Use: Stores name and vote count
-  Functions:-
-  candname: 
+
+Functions:-
+
+candname: 
     Use: Stores candidate info in structure as well as file
-  flcreate:
+
+flcreate:
     Use: Creates ‘count’ no. of files initiates with ‘0’
-  isSpecial:
+
+isSpecial:
     Use: Check for blank PRN from file
-  isAuthentic:
-    Use: PRN Authen-
-    tication
-  delFromfile:
+
+isAuthentic:
+    Use: PRN Authentication
+
+delFromfile:
     Use: Delete vote by PRN from given file
-  admin
+
+admin
     Use:
     1.Election initiation
     2.Election Continuation
     3. Illegal vote deletion
     4. Result Declaration
-  stu
+
+stu
     Use: All functions at Voter’s end
 
 Recommended Compiler: Turbo C++
