@@ -42,3 +42,4 @@ stu
 
 Recommended Compiler: Turbo C++
 Can be run on any C compiler
+#### #mini project #voting system #c project
