@@ -23,6 +23,8 @@ flcreate:
 
 isSpecial:
     Use: Check for blank PRN from file
+    
+(Note: PRN is unique roll no provided to each student in class.)
 
 isAuthentic:
     Use: PRN Authentication
