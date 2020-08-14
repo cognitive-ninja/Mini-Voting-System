@@ -42,8 +42,8 @@ admin
 stu
     Use: All functions at Voter’s end
 
-Admin Panel 
-# Username: "Admin" Password: "SR@3111"
+##### Admin Panel 
+##### Username: "Admin" Password: "SR@3111"
 
 Recommended Compiler: Turbo C++
 Can be run on any C compiler
