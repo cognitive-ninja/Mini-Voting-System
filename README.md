@@ -46,5 +46,6 @@ stu
 ##### Username: "Admin" Password: "SR@3111"
 
 Recommended Compiler: Turbo C++
+
 Can be run on any C compiler
 #### #mini project #voting system #c project
