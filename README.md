@@ -1,51 +1,47 @@
 # Mini-Voting-System-Using-C-Language
 
--> Allows us to set up a flexible and trustworthy voting system
+    -> Allows us to set up a flexible and trustworthy voting system
+    -> Applicable for large as well as small group of people e.g. a batch, a class.
+    -> Keeps a record of  every voting process.
 
--> Applicable for large as well as small group of people e.g. a batch, a class.
 
--> Keeps a record of  every voting process.
+### Working of Code:-
 
-Working of Code:-
+    The Header File with name ELECTION.H :-
 
-The Header File with name ELECTION.H :-
+        Structure CAND: 
+        Use: Stores name and vote count
 
-Structure CAND: 
-    Use: Stores name and vote count
+### Functions:-
 
-Functions:-
-
-candname: 
+    candname: 
     Use: Stores candidate info in structure as well as file
 
-flcreate:
+    flcreate:
     Use: Creates ‘count’ no. of files initiates with ‘0’
 
-isSpecial:
+    isSpecial:
     Use: Check for blank PRN from file
     
-(Note: PRN is unique roll no provided to each student in class.)
+#### (Note: PRN is unique roll no provided to each student in class.)
 
-isAuthentic:
+    isAuthentic:
     Use: PRN Authentication
 
-delFromfile:
+    delFromfile:
     Use: Delete vote by PRN from given file
 
-admin
+    admin
     Use:
     1.Election initiation
     2.Election Continuation
     3. Illegal vote deletion
     4. Result Declaration
 
-stu
+    stu
     Use: All functions at Voter’s end
 
 ##### Admin Panel 
 ##### Username: "Admin" Password: "SR@3111"
 
-Recommended Compiler: Turbo C++
-
-Can be run on any C compiler
 #### #mini project #voting system #c project
