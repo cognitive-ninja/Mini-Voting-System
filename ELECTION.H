@@ -415,7 +415,7 @@ void admin()
 					}
 
 					printf("\n\n\t\t\tVoting Percentage:%0.2f %",(tot/maxrollno)*100);
-					printf("\n\t\t\tTotal Illegal attempts:%d",false);
+					printf("\n\t\t\tTotal Illegal attempts:%d",false1);
 					getch();
 				      //	flcreate(cnt);
 					break;
