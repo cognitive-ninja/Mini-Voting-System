@@ -1,4 +1,4 @@
-#include"C:\Users\Admin\Desktop\election.h"
+#include"election.h"
 
 int main(){
     while(1){
