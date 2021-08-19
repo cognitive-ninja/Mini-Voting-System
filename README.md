@@ -4,44 +4,14 @@
     -> Applicable for large as well as small group of people e.g. a batch, a class.
     -> Keeps a record of  every voting process.
 
+# How to use?
+### You can fork or download the repo, Once you have both the files "MAIN.C" and "ELECTION.H", You just need to compile and run MAIN.C
+#### ( It's too easy, isn't it? ☺)
+##### For Admin Panel Use Username: "Admin" Password: "admiN"
 
-### Working of Code:-
+# Below is the video to see demo of project
+## Link: https://drive.google.com/file/d/17yFA8VC9chpWav8kXXIYQR4B55sf4W9b/view?usp=sharing
 
-    The Header File with name ELECTION.H :-
-
-        Structure CAND: 
-        Use: Stores name and vote count
-
-### Functions:-
-
-    candname: 
-    Use: Stores candidate info in structure as well as file
-
-    flcreate:
-    Use: Creates ‘count’ no. of files initiates with ‘0’
-
-    isSpecial:
-    Use: Check for blank PRN from file
-    
-#### (Note: PRN is unique roll no provided to each student in class.)
-
-    isAuthentic:
-    Use: PRN Authentication
-
-    delFromfile:
-    Use: Delete vote by PRN from given file
-
-    admin
-    Use:
-    1.Election initiation
-    2.Election Continuation
-    3. Illegal vote deletion
-    4. Result Declaration
-
-    stu
-    Use: All functions at Voter’s end
-
-##### Admin Panel 
-##### Username: "Admin" Password: "SR@3111"
+### Feel free to raise issues if you find some errors or want to clear your doubts...
 
 #### #mini project #voting system #c project
