@@ -1,37 +1,24 @@
-#include"ELECTION.H"
-int main()
-{
-	char n;
-	//clrscr();
-	while(1)
-	{
-		//clrscr();
-		printf("\n\n\t\t\tWelcome to Voting System\n");
+#include"C:\Users\Admin\Desktop\election.h"
 
-		printf("\n\t\t\t   1.Student panel \n\t\t\t   2.Admin panel \n\t\t\t   3.Exit \n\t\t\t   Option:");
-		scanf(" %c",&n);
+int main(){
+    while(1){
+        printf("\n\t\t\t   1.Student panel \n\t\t\t   2.Admin panel \n\t\t\t   3.Exit \n\t\t\t   Option:");
+		char input;
+        scanf(" %c",&input);
 
-
-		if(n==49)
-				stu();
-		else
-		{	if(n==50)
-				admin();
-			else
-			{
-				if(n==51)
-				{
-					free(ptr);
-					free(a);
-					return 0;
-				}
-				else
-				{
-					printf("\nInvalid option");
-					continue;
-				}
-			}
-		}
-	}
-	return 0;
+        switch(input){
+            case '1':
+                studentPanel();
+                break;
+            case '2':
+                adminPanel();
+                break;
+            case '3':
+                return 0;
+            default:
+                printf("\nInvalid option");
+                getch();
+        }
+    }
+    return 0;
 }
