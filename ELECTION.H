@@ -59,7 +59,7 @@ int checkBranchCode(char userID[15])
 }
 
 int authenticateAdmin(){
-    char username[15], password[8];
+    char username[15], password[6];
     
     printf("\nEnter username: ");
     scanf("%s",username);
@@ -69,13 +69,13 @@ int authenticateAdmin(){
     {
         printf("Enter Password: ");
         int i=0;
-        for(i=0;i<7;i++)
+        for(i=0;i<6;i++)
         {
             password[i]=getch();
             printf("%c",'*');
         }
         password[i]='\0';
-        if((strcmp(password,"SR@3111"))!=0)
+        if((strcmp(password,"admiN"))!=0)
             return 0;
     }
     return 1;
