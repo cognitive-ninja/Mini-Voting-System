@@ -69,7 +69,7 @@ int authenticateAdmin(){
     {
         printf("Enter Password: ");
         int i=0;
-        for(i=0;i<6;i++)
+        for(i=0;i<5;i++)
         {
             password[i]=getch();
             printf("%c",'*');
